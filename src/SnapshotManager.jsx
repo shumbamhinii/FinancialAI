@@ -10,7 +10,7 @@ import DeleteIcon from '@mui/icons-material/Delete';
 import ClearIcon from '@mui/icons-material/Clear';
 import axios from 'axios';
 
-const API_BASE_URL = 'http://localhost:5000'; // Ensure this matches your backend URL
+const API_BASE_URL = 'https://priceaibback.onrender.com:5000'; // Ensure this matches your backend URL
 
 // Helper function to calculate derived pricing metrics from raw snapshot data
 // IMPORTANT: This function is primarily for DISPLAYING comparison data within SnapshotManager.
